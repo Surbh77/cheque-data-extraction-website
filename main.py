@@ -16,6 +16,7 @@ import re
 import os
 import pandas as pd
 import requests
+from modules import get_bank_name,get_ifsc_code,get_accnt_no,get_cheque_number,get_bank_details
 
 app = FastAPI()
 app.add_middleware(
